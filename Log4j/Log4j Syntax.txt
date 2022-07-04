@@ -1,0 +1,9 @@
+//define public variable and initiate it.
+public static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(ClassName.class);
+
+@BeforeSuite
+public void setUp() {
+
+	PropertyConfigurator.configure("path_of_log4j.properies_file");
+
+}
